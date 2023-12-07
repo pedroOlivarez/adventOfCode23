@@ -1,4 +1,4 @@
-import trebuchet from "../src/trebuchet";
+import trebuchet from "../src/day1/trebuchet";
 import { input } from "../input/trebuchet/input";
 
 describe('Day 1', () => {
