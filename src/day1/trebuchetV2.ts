@@ -57,7 +57,6 @@ const trebuchetV2 = (input: string): number => {
                             if (inputMap.has(rightStack.substring(0, 3))) rightmost = inputMap.get(rightStack.substring(0, 3));
                             rightStack = rightStack.substring(0, 4);
                             if (inputMap.has(rightStack)) rightmost = inputMap.get(rightStack);
-
                         }
                     }
                 }
