@@ -1,29 +1,18 @@
 const trebuchetV2 = (input: string): number => {
-    const inputs = input
-        // .replace(/one/g, 'o1e')
-        // .replace(/two/g, 't2o')
-        // .replace(/three/g, 't3e')
-        // .replace(/four/g, 'f4r')
-        // .replace(/five/g, 'f5e')
-        // .replace(/six/g, 's6')
-        // .replace(/seven/g, 's7n')
-        // .replace(/eight/g, 'e8t')
-        // .replace(/nine/g, 'n9e')
-        // .replace(/zero/g, '0o')
-        .split(/\r?\n/);
+    const inputs = input.split(/\r?\n/);
 
     const initialValue = 0;
     const inputMap = new Map();
-    inputMap.set('one', '1'); // 3
-    inputMap.set('two', '2'); // 3
-    inputMap.set('six', '6'); // 3
-    inputMap.set('four', '4'); // 4
-    inputMap.set('five', '5'); // 4
-    inputMap.set('nine', '9'); // 4
-    inputMap.set('zero', '0'); //4
-    inputMap.set('three', '3'); // 5
-    inputMap.set('seven', '7'); //5
-    inputMap.set('eight', '8'); // 5
+    inputMap.set('one', '1');
+    inputMap.set('two', '2');
+    inputMap.set('three', '3');
+    inputMap.set('four', '4');
+    inputMap.set('five', '5');
+    inputMap.set('six', '6');
+    inputMap.set('seven', '7');
+    inputMap.set('eight', '8');
+    inputMap.set('nine', '9');
+    inputMap.set('zero', '0');
 
     return inputs.reduce((sum, input) => {
         let leftmost: string | null = null;
