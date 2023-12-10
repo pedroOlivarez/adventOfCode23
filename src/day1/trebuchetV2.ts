@@ -66,7 +66,7 @@ const TrebuchetV2 = (inputs: string[]): number => {
         if (!leftmost) leftmost = rightmost || '';
         if (!rightmost) rightmost = leftmost || '';
         return sum + Number(`${leftmost}${rightmost}`);
-    }, initialValue)
+    }, initialValue);
 }
 
 export default TrebuchetV2;

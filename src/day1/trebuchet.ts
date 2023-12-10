@@ -24,7 +24,7 @@ const Trebuchet = (inputs: string[]): number => {
         if (!rightmost) rightmost = leftmost || '';
 
         return sum + Number(`${leftmost}${rightmost}`);
-    }, initialValue)
+    }, initialValue);
 }
 
 export default Trebuchet;
