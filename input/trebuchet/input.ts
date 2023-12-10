@@ -1,4 +1,4 @@
-export const input: string = `dssmtmrkonedbbhdhjbf9hq
+const input: string = `dssmtmrkonedbbhdhjbf9hq
 2njsevenszzsfltconesixhsflpbpd
 6shgbprkpbksnfourfivemvncvg2eight
 eightseventhree7lfqpnclxnnineninemgkjtqksrdone
@@ -998,3 +998,5 @@ vjchzt7btthreesix1tcngpbtzsfmvsx
 sjv8
 ncqpkzh5twooneoneqfxlqbjjhqsrlkhvdnvtbzpcbj
 449three45three`;
+
+export default input;

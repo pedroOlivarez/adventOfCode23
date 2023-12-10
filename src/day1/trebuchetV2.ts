@@ -1,5 +1,4 @@
-const trebuchetV2 = (input: string): number => {
-    const inputs = input.split(/\r?\n/);
+const TrebuchetV2 = (inputs: string[]): number => {
 
     const initialValue = 0;
     const inputMap = new Map();
@@ -70,4 +69,4 @@ const trebuchetV2 = (input: string): number => {
     }, initialValue)
 }
 
-export default trebuchetV2;
+export default TrebuchetV2;
