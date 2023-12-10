@@ -1,5 +1,4 @@
-const trebuchet = (input: string): number => {
-    const inputs = input.split(/\r?\n/);
+const Trebuchet = (inputs: string[]): number => {
     const initialValue = 0;
     return inputs.reduce((sum, input) => {
         let leftmost: string | null = null;
@@ -28,4 +27,4 @@ const trebuchet = (input: string): number => {
     }, initialValue)
 }
 
-export default trebuchet;
+export default Trebuchet;
