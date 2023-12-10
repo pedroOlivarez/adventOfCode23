@@ -1,4 +1,4 @@
-import TrebuchetV2 from "../src/day1/TrebuchetV2";
+import TrebuchetV2 from "../src/dayOne/TrebuchetV2";
 import input from "../input/trebuchet/input";
 import { inputSplitter } from "../src/utils/utils";
 
